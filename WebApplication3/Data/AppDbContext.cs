@@ -8,7 +8,7 @@ public class AppDbContext : DbContext
 {
     public DbSet<City> Cities { get; set; }
     public DbSet<Departments> Departments { get; set; }
-    public DbSet<Student> Students { get; set; }
+    public DbSet<Student> Students  { get; set; }
     public DbSet<Subject> Subjects { get; set; }
     public DbSet<Teacher> Teachers { get; set; }
     
